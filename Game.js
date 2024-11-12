@@ -44,3 +44,8 @@ resetButton.addEventListener('click', () => {
     upgradeInfo.textContent = `You need 10 points to upgrade.`;
     updateScore();
 });
+clickButton.addEventListener('click', () => {
+    alert('Button clicked!');
+    score += pointsPerClick;
+    updateScore();
+});
